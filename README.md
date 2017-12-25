@@ -12,3 +12,7 @@ tickets_table <- page_12306_source_html %>%
     html_node('table') %>% 
     html_table(fill = TRUE)
 ```
+    
+    
+Reference    
+[1] https://cran.r-project.org/web/packages/RSelenium/vignettes/RSelenium-basics.html
